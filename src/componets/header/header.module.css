@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  align-items: center;
+  background-color: #1F2326;
+  min-height: 90px;
+}
+
+.container {
+  margin: 0 80px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.logoText {
+  margin: 0 12px 0 0;
+  color: #fff;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+.logo {
+  background-image: url("./images/logo-lg.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 180px;
+  height: 32px;
+}
