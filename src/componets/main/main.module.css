@@ -1,0 +1,9 @@
+.content {
+  position: relative;
+  margin: 0;
+  background-color: #FF4656;
+  background-image: url("../../assets/images/background.jpg");
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: multiply;
+}

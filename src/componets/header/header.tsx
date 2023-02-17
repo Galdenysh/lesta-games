@@ -8,7 +8,7 @@ function Header() {
         <a className={styles.logo} href="https://lesta.ru/ru"></a>
       </div>
     </header>
-  )
+  );
 }
 
 export default Header;
