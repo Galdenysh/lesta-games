@@ -1,9 +1,9 @@
 import { news } from '../../utils/mock';
-import styles from './news.module.css';
+import styles from './cards-news.module.css';
 
-function News() {
+function CardsNews() {
   return (
-    <section className="news">
+    <section className={styles.cardsNews}>
       <h2 className={styles.mainTitle}>News</h2>
       <ul className={styles.list}>
         {news.map((item) => (
@@ -27,4 +27,4 @@ function News() {
   );
 }
 
-export default News;
+export default CardsNews;
