@@ -1,3 +1,4 @@
+import NavMenu from '../nav-menu/nav-menu';
 import styles from './header.module.css';
 
 function Header() {
@@ -7,6 +8,7 @@ function Header() {
         <p className={styles.logoText}>for</p>
         <a className={styles.logo} href="https://lesta.ru/ru"></a>
       </div>
+      <NavMenu />
     </header>
   );
 }

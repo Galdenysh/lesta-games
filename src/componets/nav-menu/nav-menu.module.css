@@ -1,0 +1,27 @@
+.list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style-type: none;
+}
+
+.listItem {
+  margin-right: 30px;
+}
+.listItem:last-of-type {
+  margin-right: 0;
+}
+
+.link {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.2;
+  text-align: center;
+  color: #fff;
+  transition: all ease-in-out 0.2s;
+}
+.link:hover {
+  opacity: 0.5;
+}

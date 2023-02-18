@@ -41,8 +41,7 @@
   transition: all ease-in-out 0.2s;
 }
 .listItem:hover {
-  /* background-color: #FF4656; */
-  transform: translateY(-2px);
+  transform: translateY(-4px);
 }
 
 .container {
