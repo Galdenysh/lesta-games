@@ -1,12 +1,6 @@
 import { NavLink, useLocation } from 'react-router-dom';
+import { links } from '../../utils/constants';
 import styles from './nav-menu.module.css';
-
-const links = {
-  news: '/',
-  patchNote: '/patch-note',
-  analyze: '/analyze',
-  game: '/game',
-};
 
 function NavMenu() {
   const location = useLocation();
