@@ -1,0 +1,23 @@
+.content {
+  position: relative;
+  margin: 0;
+  min-height: calc(100vh - 180px);
+  background-color: #FF4656;
+  background-image: url("../../assets/images/background_5.jpg");
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+
+.mainTitle {
+  margin: 0;
+  padding: 40px 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 180px;
+  line-height: 0.9;
+  text-align: center;
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke: 1px #fff;
+}
