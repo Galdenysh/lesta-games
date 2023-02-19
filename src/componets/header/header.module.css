@@ -28,3 +28,26 @@
   width: 180px;
   height: 32px;
 }
+
+@media screen and (max-width: 979px) {
+  .header {
+    justify-content: space-between
+  }  
+}
+
+@media screen and (max-width: 639px) {
+  .container {
+    margin: 0 40px;
+  }
+
+  .logo {
+    width: 120px;
+    height: 24px;
+  }
+}
+
+@media screen and (max-width: 399px) {
+  .header {
+    min-height: 60px;
+  }
+}
