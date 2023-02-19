@@ -41,7 +41,7 @@ export const news = [
   {
     id: '5',
     link: 'https://news.blizzard.com/ru-ru/diablo4/23880208/vstrecha-s-tvorcom-sostoitsya-6-iyunya-oformite-predzakaz-diablo-iv?blzcmp=blizzard-news',
-    title: 'Blizzard Entertainment ',
+    title: 'Blizzard',
     image: 'https://i.ibb.co/F344xHC/Diablo-4.jpg',
     about: 'Новость о старте предзаказа для рекламы продукта',
     explanation:

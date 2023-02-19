@@ -26,7 +26,6 @@
 }
 
 .listItem {
-  position: relative;
   width: 560px;
   height: 260px;
   background-color: #000;
@@ -57,9 +56,6 @@
 }
 
 .container {
-  position: absolute;
-  top: 0;
-  left: 0;
   display: grid;
   padding: 20px 20px 0;
   width: 100%;
@@ -136,3 +132,62 @@
   color: #1f2326;
   grid-area: exp;
 }
+
+@media screen and (max-width: 639px) {
+  .mainTitle {
+    font-size: 80px;
+  }
+
+  .list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .listItem {
+    display: flex;
+    margin: 0 40px;
+    width: auto;
+    height: auto;
+  }
+
+  .container {
+    width: auto;
+    height: auto;
+    grid-template-columns: 1fr auto;
+    grid-template-areas:
+    'title image'
+    'about  about'
+    'exp  exp';
+  }
+
+  .link {
+    margin: auto;
+    text-align: center;
+  }
+
+  .image {
+    margin-left: auto;
+    width: 90px;
+    height: 90px;
+  }
+}
+
+@media screen and (max-width: 399px) {
+  .mainTitle {
+    padding: 20px 0;
+    font-size: 48px;
+  }
+
+  .listItem {
+    margin: 0 20px;
+  }
+  
+  .textAbout {
+    margin: 8px 0 0;
+  }
+  
+  .textExp {
+    margin: 8px 0 20px;
+  }
+}
+

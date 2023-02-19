@@ -90,4 +90,8 @@
   .list {
     top: 60px;
   }
+
+  .burgerBtn {
+    margin-right: 20px;
+  }
 }
