@@ -60,3 +60,9 @@ export const patches = [
     text: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat',
   },
 ];
+
+export const analyze = {
+  title: 'Patch 1',
+  image: 'https://i.ibb.co/6yKj2vq/pathfinder.jpg',
+  text: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat',
+}
