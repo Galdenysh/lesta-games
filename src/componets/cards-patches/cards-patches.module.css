@@ -44,7 +44,7 @@
   height: 560px;
   align-items: end;
   box-sizing: border-box;
-  background-color: #1F2326;
+  background-color: #1f2326;
   clip-path: polygon(
     0px 12px,
     12px 0px,
@@ -52,7 +52,8 @@
     100% calc(100% - 12px),
     calc(100% - 12px) 100%,
     0px 100%,
-    0px 12px);
+    0px 12px
+  );
 }
 
 .image {
@@ -68,7 +69,7 @@
   font-weight: 500;
   font-size: 24px;
   line-height: 1.2;
-  color: #FF4656;
+  color: #ff4656;
   transition: all ease-in-out 0.2s;
 }
 
@@ -120,7 +121,7 @@
   .title {
     margin: 8px 20px 0;
   }
-  
+
   .text {
     margin: 8px 20px 0;
   }

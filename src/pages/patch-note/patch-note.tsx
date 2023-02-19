@@ -6,7 +6,7 @@ function PatchNote() {
     <main className={styles.content}>
       <CardsPatches />
     </main>
-  )
+  );
 }
 
 export default PatchNote;

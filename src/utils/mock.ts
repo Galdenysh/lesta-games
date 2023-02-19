@@ -65,7 +65,7 @@ export const patches = [
 ];
 
 export const analyze = {
-  title: 'korabli.su/ru/content/game/',
+  title: 'Ошибки korabli.su',
   image: 'https://i.ibb.co/Pzs98mw/analize.jpg',
   text: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat',
 };

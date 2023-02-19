@@ -10,7 +10,11 @@ function PostsAnalize() {
           <h3 className={styles.title}>{analyze.title}</h3>
           <p className={styles.text}>{analyze.text}</p>
         </div>
-        <img className={styles.image} src={analyze.image} alt="Изображение поста"></img>
+        <img
+          className={styles.image}
+          src={analyze.image}
+          alt="Изображение поста"
+        ></img>
       </div>
     </section>
   );

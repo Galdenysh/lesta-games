@@ -1,6 +1,3 @@
-.postsAnalize {
-}
-
 .mainTitle {
   margin: 0;
   padding: 40px 0;
@@ -35,10 +32,9 @@
 }
 
 .image {
-  width: 360px;
+  width: 440px;
   min-height: 440px;
   object-fit: cover;
-  object-position: right;
 }
 
 .title {
@@ -58,4 +54,57 @@
   font-size: 18px;
   line-height: 1.2;
   color: #fff;
+}
+
+@media screen and (max-width: 979px) {
+  .title {
+    margin: 40px 40px 0;
+  }
+
+  .text {
+    margin: 16px 40px 40px;
+  }
+
+  .image {
+    width: 320px;
+    min-height: 440px;
+  }
+}
+
+@media screen and (max-width: 639px) {
+  .mainTitle {
+    font-size: 80px;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  .title {
+    margin: 16px 20px 0;
+  }
+
+  .text {
+    margin: 16px 20px 20px;
+  }
+
+  .image {
+    width: 100%;
+    min-height: auto;
+  }
+}
+
+@media screen and (max-width: 399px) {
+  .mainTitle {
+    padding: 20px 0;
+    font-size: 48px;
+  }
+
+  .title {
+    margin: 8px 20px 0;
+  }
+
+  .text {
+    margin: 8px 20px 20px;
+  }
 }

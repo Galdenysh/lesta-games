@@ -1,7 +1,7 @@
 .footer {
   display: flex;
   min-height: 90px;
-  background: #F8F8F8;
+  background: #f8f8f8;
   align-items: center;
   justify-content: flex-end;
 }
@@ -21,7 +21,7 @@
   font-weight: 700;
   font-size: 14px;
   line-height: 17px;
-  color: #1F2326;
+  color: #1f2326;
   transition: all ease-in-out 0.2s;
 }
 .link:hover {

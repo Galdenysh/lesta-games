@@ -20,6 +20,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "prettier": "prettier --write \"src/**/*.tsx\" \"src/**/*.css\"",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
