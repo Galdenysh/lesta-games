@@ -74,8 +74,54 @@
 
 .text {
   margin: 16px 30px 0;
+  padding-bottom: 16px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
   color: #fff;
+}
+
+@media screen and (max-width: 639px) {
+  .mainTitle {
+    font-size: 80px;
+  }
+
+  .list {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .container {
+    margin: 0 40px;
+    width: auto;
+    height: auto;
+  }
+
+  .image {
+    height: 240px;
+  }
+}
+
+@media screen and (max-width: 399px) {
+  .mainTitle {
+    padding: 20px 0;
+    font-size: 48px;
+  }
+
+  .container {
+    margin: 0 20px;
+  }
+
+  .image {
+    height: 140px;
+  }
+
+  .title {
+    margin: 8px 20px 0;
+  }
+  
+  .text {
+    margin: 8px 20px 0;
+  }
 }

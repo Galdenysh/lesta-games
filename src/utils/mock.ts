@@ -52,20 +52,20 @@ export const news = [
 export const patches = [
   {
     id: '1',
-    title: 'Patch 1',
-    image: 'https://i.ibb.co/6yKj2vq/pathfinder.jpg',
+    title: '0.9.10',
+    image: 'https://i.ibb.co/9crtZcw/patch-1.jpg',
     text: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat',
   },
   {
     id: '2',
-    title: 'Patch 2',
-    image: 'https://i.ibb.co/6yKj2vq/pathfinder.jpg',
+    title: '0.11.11',
+    image: 'https://i.ibb.co/f4BCCRJ/patch-2.jpg',
     text: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat',
   },
 ];
 
 export const analyze = {
-  title: 'Patch 1',
-  image: 'https://i.ibb.co/6yKj2vq/pathfinder.jpg',
+  title: 'korabli.su/ru/content/game/',
+  image: 'https://i.ibb.co/Pzs98mw/analize.jpg',
   text: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat',
 };
