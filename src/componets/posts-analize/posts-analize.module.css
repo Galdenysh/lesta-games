@@ -17,11 +17,21 @@
 .container {
   display: flex;
   justify-content: space-between;
-  background-color: #1F2326;
+  background-color: #1f2326;
 }
 
 .wrapText {
-
+  animation: fadeIn ease-in-out 0.4s;
+}
+@keyframes fadeIn {
+  0% {
+    transform: translateY(10px);
+    opacity: 0.1;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
 .image {
@@ -38,7 +48,7 @@
   font-weight: 500;
   font-size: 36px;
   line-height: 1.2;
-  color: #FF4656;
+  color: #ff4656;
   transition: all ease-in-out 0.2s;
 }
 
