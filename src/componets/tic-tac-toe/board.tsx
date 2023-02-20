@@ -1,16 +1,17 @@
-import { useState } from 'react';
 import { calculateWinner } from '../../utils/funcs';
+import { TicTacValue } from '../../utils/types';
 import Square from './square';
 import styles from './tic-tac-toe.module.css';
 
 interface BoardProps {
-  squares: string[];
-  setSquares: React.Dispatch<React.SetStateAction<string[]>>;
+  squares: TicTacValue[];
+  setSquares: React.Dispatch<React.SetStateAction<TicTacValue[]>>;
+  xIsNext: boolean;
+  setXIsNext: React.Dispatch<React.SetStateAction<boolean>>;
 }
 
 export default function Board(props: BoardProps) {
-  const { squares, setSquares } = props;
-  const [xIsNext, setXIsNext] = useState(true);
+  const { squares, setSquares, xIsNext, setXIsNext } = props;
   const winner = calculateWinner(squares);
 
   const handleClick = (i: number) => {
@@ -18,7 +19,7 @@ export default function Board(props: BoardProps) {
 
     const nextSqures = [...squares];
     
-    xIsNext ? nextSqures[i] = "X" : nextSqures[i] = "O"; 
+    xIsNext ? nextSqures[i] = 'X' : nextSqures[i] = 'O'; 
 
     setXIsNext(!xIsNext);
     setSquares(nextSqures);

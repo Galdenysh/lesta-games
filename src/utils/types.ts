@@ -1,0 +1,1 @@
+export type TicTacValue = 'X' | 'O' | '';
