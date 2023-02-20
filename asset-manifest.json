@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/lesta-games/static/css/main.0cc3f44a.css",
-    "main.js": "/lesta-games/static/js/main.122e168e.js",
+    "main.js": "/lesta-games/static/js/main.d6a6bf02.js",
     "static/media/background_2.jpg": "/lesta-games/static/media/background_2.7f385d71520124172b26.jpg",
     "static/media/background_3.jpg": "/lesta-games/static/media/background_3.357126be21b985658419.jpg",
     "static/media/background.jpg": "/lesta-games/static/media/background.f747a7a1914de6803326.jpg",
@@ -16,10 +16,10 @@
     "static/media/o.svg": "/lesta-games/static/media/o.cc73bc891135833ba1a62dc2a02af411.svg",
     "static/media/win-o.svg": "/lesta-games/static/media/win-o.6d535de7c6b8d42b420058d3aae493b4.svg",
     "main.0cc3f44a.css.map": "/lesta-games/static/css/main.0cc3f44a.css.map",
-    "main.122e168e.js.map": "/lesta-games/static/js/main.122e168e.js.map"
+    "main.d6a6bf02.js.map": "/lesta-games/static/js/main.d6a6bf02.js.map"
   },
   "entrypoints": [
     "static/css/main.0cc3f44a.css",
-    "static/js/main.122e168e.js"
+    "static/js/main.d6a6bf02.js"
   ]
 }
