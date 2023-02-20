@@ -45,15 +45,17 @@
   font-size: 36px;
   line-height: 1.2;
   color: #ff4656;
-  transition: all ease-in-out 0.2s;
 }
 
 .text {
-  margin: 16px 40px 40px 80px;
+  margin: 16px 40px 0 80px;
   font-weight: 500;
   font-size: 18px;
   line-height: 1.2;
   color: #fff;
+}
+.text:last-of-type {
+  margin-bottom: 40px;
 }
 
 @media screen and (max-width: 979px) {
@@ -62,7 +64,10 @@
   }
 
   .text {
-    margin: 16px 40px 40px;
+    margin: 16px 40px 0 40px;
+  }
+  .text:last-of-type {
+    margin-bottom: 40px;
   }
 
   .image {
@@ -81,11 +86,15 @@
   }
 
   .title {
+    font-size: 32px;
     margin: 16px 20px 0;
   }
 
   .text {
-    margin: 16px 20px 20px;
+    margin: 16px 20px 0 20px;
+  }
+  .text:last-of-type {
+    margin-bottom: 20px;
   }
 
   .image {
@@ -101,10 +110,11 @@
   }
 
   .title {
+    font-size: 24px;
     margin: 8px 20px 0;
   }
 
   .text {
-    margin: 8px 20px 20px;
+    margin: 8px 20px 0 20px;
   }
 }

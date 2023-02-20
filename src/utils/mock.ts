@@ -52,20 +52,26 @@ export const news = [
 export const patches = [
   {
     id: '1',
-    title: '0.9.10',
+    title: 'Обновление 0.9.10',
     image: 'https://i.ibb.co/9crtZcw/patch-1.jpg',
-    text: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat',
+    text: 'Статья перегружена информаций. Легко потеряться в навигации по странице.',
   },
   {
     id: '2',
-    title: '0.11.11',
+    title: 'Обновление 0.11.11',
     image: 'https://i.ibb.co/f4BCCRJ/patch-2.jpg',
-    text: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat',
+    text: 'Статья стала более компактная. Навигационное меню по странице стало название и более привычный вид. Появились раскрывающиеся списки с подробной информацией. Кнопки переключения между новостями стали лагать в футере.',
   },
 ];
 
 export const analyze = {
-  title: 'Ошибки korabli.su',
+  title: 'Анализа страницы korabli.su',
   image: 'https://i.ibb.co/Pzs98mw/analize.jpg',
-  text: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat',
+  text: [
+    'В данной статье произведен анализ страницы https://korabli.su/ru/content/game/:',
+    ' - На странице полностью отсутствуют семантические теги. Весь сайт сверстан с помощью тега div.  Это ведет к понижению позиций своего ресурса в поисковой выдаче, так как поисковики ориентируют на семантику сайта. Также эти теги нужны для людей с ограниченными возможностями при использовании экранного диктора. Да и в целом проще поддерживать грамотно сверстанный сайт.',
+    ' - Карусель секции “ГАЛЕРЕЯ СРАЖЕНИЙ” не работает в мобильной верстке.',
+    ' - Бургерное меню в мобильной верстке закрыватеся только по крестику. Было бы удобнее добавить закрытие по пустой области экрана.',
+    ' - Ссылки в футере имеют странное форматирование текста по центру. Хотя сами ссылки находятся в левой части экрана.',
+  ],
 };

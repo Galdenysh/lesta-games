@@ -8,7 +8,9 @@ function PostsAnalize() {
       <div className={styles.container}>
         <div className={styles.wrapText}>
           <h3 className={styles.title}>{analyze.title}</h3>
-          <p className={styles.text}>{analyze.text}</p>
+          {analyze.text.map((paragraph) => (
+            <p className={styles.text}>{paragraph}</p>
+          ))}
         </div>
         <img
           className={styles.image}
