@@ -8,3 +8,9 @@
   background-size: cover;
   background-blend-mode: multiply;
 }
+
+@media screen and (max-width: 399px) {
+  .content {
+    min-height: calc(100vh - 120px);
+  }
+}

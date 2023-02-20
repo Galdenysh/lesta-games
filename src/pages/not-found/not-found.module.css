@@ -21,3 +21,9 @@
   color: transparent;
   -webkit-text-stroke: 1px #fff;
 }
+
+@media screen and (max-width: 399px) {
+  .content {
+    min-height: calc(100vh - 120px);
+  }
+}

@@ -1,5 +1,7 @@
 .ticTacToe {
   padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
 }
 
 .mainTitle {
@@ -13,4 +15,64 @@
   text-transform: uppercase;
   color: transparent;
   -webkit-text-stroke: 1px #fff;
+}
+
+.boardRow {
+  display: flex;
+  justify-content: center;
+  animation: fadeIn ease-in-out 0.4s;
+}
+
+.square {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  width: 80px;
+  height: 80px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #f8f8f8;
+  background: transparent;
+  color: #fff;
+}
+
+.resetBtn {
+  margin: 40px auto 0;
+  padding: 10px 20px;
+  background: transparent;
+  border: 1px solid #f8f8f8;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.2;
+  color: #fff;
+  cursor: pointer;
+  transition: all ease-in-out 0.2s;
+  animation: fadeIn ease-in-out 0.4s;
+}
+.resetBtn:hover {
+  opacity: 0.5;
+}
+
+@keyframes fadeIn {
+  0% {
+    transform: translateY(10px);
+    opacity: 0.1;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 639px) {
+  .mainTitle {
+    font-size: 80px;
+  }
+}
+
+@media screen and (max-width: 399px) {
+  .mainTitle {
+    padding: 20px 0;
+    font-size: 48px;
+  }
 }
